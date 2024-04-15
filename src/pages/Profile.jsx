@@ -78,7 +78,6 @@ export default function Profile() {
     <div className="flex flex-col items-center justify-center min-h-screen">
     <div className="border p-6 rounded-md shadow-md w-full max-w-3xl">
     <h2 className='text-3xl mb-4'>{user.username}'s Profile</h2>
-    <p>ID: {user.id}</p>
     <p>Username: {user.username}</p>
     
     <div className="mb-4">

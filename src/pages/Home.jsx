@@ -51,7 +51,6 @@ export default function Home() {
         user_id: userId,
         product_id: productId
       });
-      alert(response.data.message);
     } catch (error) {
       setErrorMessage('Error adding product to favorites');
     }
